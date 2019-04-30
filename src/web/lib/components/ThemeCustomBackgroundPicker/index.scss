@@ -228,6 +228,7 @@
     &:hover,
     &:focus {
       background-color: var(--grey-90-a10);
+      cursor: pointer;
     }
 
     &:active {
@@ -248,6 +249,24 @@
 
     .name {
       display: none;
+    }
+  }
+
+  .customBackgroundItem {
+    .align-group {
+      margin: 0;
+    }
+
+    .image-preview {
+      flex: 0;
+    }
+
+    .tiling {
+      width: 0;
+    }
+
+    .import-image {
+      min-width: 119px;
     }
   }
 }
